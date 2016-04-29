@@ -4,7 +4,7 @@ import EventEmitter from 'events';
 import Promise from 'bluebird';
 import debug from 'debug';
 
-import { Server, ServerPlugin } from '../server';
+import Server, { ServerPlugin } from '../server';
 
 import loadConfigs from './loadConfigs';
 

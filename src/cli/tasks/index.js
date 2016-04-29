@@ -1,9 +1,7 @@
 import nodemon from './nodemon';
 import devServer from './devServer';
 
-export { loadPipelines } from './pipelines';
-
-export function loadDefaultTasks(cli) {
+export function registerDefaultTasks(cli) {
   cli.task('nodemon', nodemon(cli));
   cli.task('devServer', devServer(cli));
 }

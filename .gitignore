@@ -2,9 +2,9 @@ node_modules/
 *.log
 /application
 /bin
+/cli
 /plugins
 /server
-/tasks
 /testing
 /utils
 /webpack

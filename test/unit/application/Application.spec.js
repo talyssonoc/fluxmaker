@@ -3,7 +3,7 @@ import { stub } from 'sinon';
 
 import Promise from 'bluebird';
 
-import Application from '../../../src/application/Application';
+import Application from '../../../src/application';
 
 describe('Application', () => {
   let application;
